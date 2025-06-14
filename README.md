@@ -1,4 +1,4 @@
-# Our First Project - Frontend Bssic
+# First Project - Frontend Bssic
 
 ## Initial Setup
 
