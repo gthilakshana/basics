@@ -1,6 +1,19 @@
 var userEmail = "gavrawavanniarachchi@gmail.com"
 
-const userName = "Gavrawa Thilakshana"
+
+//Const Type
+// console.log("1::", userName); //No Hoisting
+// const userName = "Gavrawa Thilakshana" //String Type
+// console.log("2::", userName);
+// userName = "Pavan"; //No Reassignment
+// console.log("3::", userName);
+// const userName; //Undefined
+
+
+
+
+
+
 const isAthunticated = false
 let userAge = 24
 const lastName = null
@@ -27,13 +40,13 @@ multi
 line */
 
 
-console.log(userEmail, typeof userEmail);
-console.log(userName, typeof userName);
-console.log(userAge, typeof userAge);
-console.log(isAthunticated, typeof isAthunticated);
-console.log(lastName, typeof lastName);
-console.log(firstName, typeof firstName);
-console.log(userData, typeof userData);
-console.log(fruits, typeof fruits);
-console.log(numbers, typeof numbers);
-console.log(users, typeof users);
+// console.log(userEmail, typeof userEmail);
+// console.log(userName, typeof userName);
+// console.log(userAge, typeof userAge);
+// console.log(isAthunticated, typeof isAthunticated);
+// console.log(lastName, typeof lastName);
+// console.log(firstName, typeof firstName);
+// console.log(userData, typeof userData);
+// console.log(fruits, typeof fruits);
+// console.log(numbers, typeof numbers);
+// console.log(users, typeof users);
