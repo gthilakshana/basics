@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>React.js & Next.js Matser Course</title>
     <link rel="stylesheet" href="style.css">
     <script src="./script.js" defer></script>
@@ -13,26 +16,27 @@
        #welcome-text{
            text-align: start;
            padding: 10px;
-           font-family: Arial, Helvetica, sans-serif;
-           color: #7f8c8d;
+          
+           color: #ffffff;
            font-size: 20px;
        }
        #welcome-title{
            text-align: start;
            padding: 10px;
-           font-family: Arial, Helvetica, sans-serif;
-           color: #2c3e50;
+           
+           color: #ffffff;
            font-size: 25px;
        }
        .description{
            text-align: start;
            padding: 20px;
-           font-family: Arial, Helvetica, sans-serif;
-           color: #2c3e50;
+          
+           color: #ffffff;
            font-size: 20px;
            margin: 0;
-           background-color: #f1c40f;
-           border-radius: 10px;
+           background-size: auto 100%;
+           background-color: #34495e;
+          border-radius: 10px;
           
        }
 
@@ -65,7 +69,7 @@
 
         <section id="course-section">
             <!---Inline CSS-->
-            <h2 style="color:#8e44ad; font-size: 30px; margin-top: 34px; text-align: center; font-weight: bold;">Section 2List</h2>
+            <h2 id="welcome-title">Section 2 List</h2>
             <ul style="display: flex; flex-direction: column; ">
                 <li>Course 1</li>
                 <li>Course 2</li>
@@ -81,7 +85,7 @@
         </section>
 
         <section id="resourses-section">
-            <h2>Section 3List</h2>
+            <h2 id="welcome-title">Section 3List</h2>
             <ol>
                 <li>Course 1</li>
                 <li>Course 2</li>
@@ -98,7 +102,7 @@
     </main>
 
 
-    <footer style="background-color: #2c3e50; padding: 10px; margin: 0; ">
+    <footer class="footer">
         <p style="text-align: center; color: #ecf0f1;">Copyright &copy; 2022</p>
     </footer>
 </body>
